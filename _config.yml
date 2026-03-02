@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: alexiusll 的博客
+title: "alexiusll 的博客"
 subtitle: ""
 description: "alexiusll 的博客"
-keywords: 医疗,博客,web渲染,前端
-author: alexiusll
-language: zh-CN
+keywords: "博客,web渲染,前端"
+author: "alexiusll"
+language: "zh-CN"
 timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://alexiusll.github.io
-permalink: :title/
+permalink: :year/:month/:day-:title
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -31,7 +31,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: /:year/:month/:day-:title.md # 生成的文件名带上日期，并且在对应年份和月份下创建
+new_post_name: :year/:month/:day-:title.md # 生成的文件名带上日期，并且在对应年份和月份下创建
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
@@ -43,15 +43,14 @@ render_drafts: false
 post_asset_folder: true # 创建默认的资源文件夹
 relative_link: false
 future: true
+syntax_highlighter: highlight.js
 highlight:
-  enable: true
   line_number: true
   auto_detect: false
   tab_replace: ""
   wrap: true
   hljs: false
 prismjs:
-  enable: false
   preprocess: true
   line_number: true
   tab_replace: ""
@@ -99,23 +98,11 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: next
 
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: ""
-
-# hexo-renderer-marked
 marked:
   prependRoot: true
   postAsset: true
 
-# 启用文章字数统计等功能
-symbols_count_time:
-  symbols: true # 文章字数
-  time: true # 阅读时间
-  total_symbols: false # 所有文章总字数
-  total_time: false # 所有文章阅读中时长
-  exclude_codeblock: false
-  awl: 4
-  wpm: 275
-  suffix: "mins."
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: ""
