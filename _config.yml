@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "alexiusll 的博客"
+title: alexiusll 的博客
 subtitle: ""
-description: "alexiusll 的博客"
-keywords: "博客,web渲染,前端"
-author: "alexiusll"
-language: "zh-CN"
-timezone: "Asia/Shanghai"
+description: alexiusll 的博客
+keywords: 博客,web渲染,前端
+author: alexiusll
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
