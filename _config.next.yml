@@ -698,7 +698,7 @@ comments:
 # Disqus
 # For more information: https://disqus.com
 disqus:
-  enable: true
+  enable: false
   shortname: blog-alexiusll
   count: true
 
@@ -721,7 +721,7 @@ livere_uid: # <your_uid>
 # Gitalk
 # For more information: https://gitalk.github.io
 gitalk:
-  enable: false
+  enable: true
   github_id: alexiusll # GitHub repo owner
   repo: alexiusll.github.io # Repository name to store issues
   client_id: Ov23lisriK0vVXoz5BrI # GitHub Application Client ID
