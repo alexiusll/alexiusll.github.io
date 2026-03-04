@@ -1,6 +1,6 @@
 ---
 layout: about
-title: 友情链接
+title: 关于我
 date: 2024-06-26 21:33:52
 categories:
 - 关于我
